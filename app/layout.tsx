@@ -4,6 +4,7 @@ import LocalFont from "@next/font/local";
 import { Metadata } from "next";
 import { Analytics } from "./components/analytics";
 import { Analytics as VercelAnalytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://meti0x7cb.dev";
 
@@ -74,6 +75,7 @@ export default function RootLayout({
       >
         {children}
         <VercelAnalytics />
+        <SpeedInsights />
       </body>
     </html>
   );
