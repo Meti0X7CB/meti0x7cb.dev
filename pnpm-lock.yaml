@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@next/font':
-        specifier: ^13.5.4
-        version: 13.5.4
       '@vercel/analytics':
         specifier: ^1.6.1
         version: 1.6.1(next@15.5.18(@opentelemetry/api@1.4.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)
